@@ -1,0 +1,46 @@
+body {
+  margin: 20px 0 20px 0;
+  padding: 0;
+  height: 100vh;
+  background-color: gray;
+}
+.a {
+  margin: 0;
+  padding: 0;
+  width: 450px;
+  height: 96vh;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.aa,
+.bb {
+  width: 120px;
+  height: 120px;
+  background-color: purple;
+}
+.aa {
+  border-radius: 50%;
+}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="C:\Users\Lenovo\Desktop\제국이 과제\1-css.css"
+    />
+    <style></style>
+  </head>
+  <body>
+    <div class="a">
+      <div class="aa"></div>
+      <div class="aa"></div>
+      <div class="bb"></div>
+    </div>
+  </body>
+</html>
